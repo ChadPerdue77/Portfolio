@@ -1,0 +1,58 @@
+#header{
+	background-color: red;
+	padding-top:1px;
+	padding-bottom:1px;  
+	margin: -8px;
+}
+#sidebar{
+	background-color: lightgrey;
+	padding: 0 140px 0px 0px;
+	margin: 15px 1173px 0px 1px;
+	border:1px solid black;
+	float: left;
+	position: relative;
+	display: block;
+}
+#menu{
+	list-style-type: none;
+}
+li{
+	margin: 32px auto;
+	padding:0px;
+	border-top:1px solid black;
+}
+a{
+	border:1px black;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #1d9b6c;
+}
+#posts{
+	float: right;
+	background-color: grey;
+	margin:-340px 0px 0px 0px;
+    padding: 0px 5px 5px 5px;
+	display: inline-block;
+	border-radius: 1px
+	box-shadow: 1px 1px 5px #777;
+}
+section div.panel{
+	float: left;
+	position: relative;
+	width: 250px;
+	margin: 0 .5em 2em .5em;
+	padding: 1em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+}
+.panel{
+    background-color: purple;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
